@@ -18,12 +18,9 @@ namespace PaymentAPI
                 options.AddPolicy("AllowAngular",
                     policy =>
                     {
-                        policy.WithOrigins(
-                            "http://localhost:4200",
-                            "https://payment-management-orcin.vercel.app"
-                        )
-                        .AllowAnyHeader()
-                        .AllowAnyMethod();
+                        policy.AllowAnyOrigin()
+                              .AllowAnyHeader()
+                              .AllowAnyMethod();
                     });
             });
 
@@ -37,7 +34,7 @@ namespace PaymentAPI
             app.UseSwagger();
             app.UseSwaggerUI();
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
 
             app.UseCors("AllowAngular");
 
