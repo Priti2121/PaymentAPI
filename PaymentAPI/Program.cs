@@ -9,18 +9,23 @@ namespace PaymentAPI
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            // PostgreSQL Connection
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
+                options.UseNpgsql(
                     builder.Configuration.GetConnectionString("DefaultConnection")));
 
+            // CORS
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowAngular",
                     policy =>
                     {
-                        policy.AllowAnyOrigin()
-                              .AllowAnyHeader()
-                              .AllowAnyMethod();
+                        policy.WithOrigins(
+                            "http://localhost:4200",
+                            "https://payment-management-orcin.vercel.app"
+                        )
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
                     });
             });
 
@@ -31,10 +36,9 @@ namespace PaymentAPI
 
             var app = builder.Build();
 
+            // Swagger
             app.UseSwagger();
             app.UseSwaggerUI();
-
-            // app.UseHttpsRedirection();
 
             app.UseCors("AllowAngular");
 

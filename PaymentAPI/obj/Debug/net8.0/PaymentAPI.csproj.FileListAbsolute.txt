@@ -138,3 +138,6 @@ F:\MCA\PaymentProject\PaymentAPI\PaymentAPI\obj\Debug\net8.0\refint\PaymentAPI.d
 F:\MCA\PaymentProject\PaymentAPI\PaymentAPI\obj\Debug\net8.0\PaymentAPI.pdb
 F:\MCA\PaymentProject\PaymentAPI\PaymentAPI\obj\Debug\net8.0\PaymentAPI.genruntimeconfig.cache
 F:\MCA\PaymentProject\PaymentAPI\PaymentAPI\obj\Debug\net8.0\ref\PaymentAPI.dll
+F:\MCA\PaymentProject\PaymentAPI\PaymentAPI\obj\Debug\net8.0\PaymentAPI.sourcelink.json
+F:\MCA\PaymentProject\PaymentAPI\PaymentAPI\bin\Debug\net8.0\Npgsql.dll
+F:\MCA\PaymentProject\PaymentAPI\PaymentAPI\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
