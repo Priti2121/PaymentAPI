@@ -82,7 +82,7 @@ namespace PaymentAPI
     </head>
     <body>
         <div class="box">
-            <h1>✅ Payment API is Live</h1>
+            <h1>Payment API is Live</h1>
             <p>Backend is running successfully.</p>
             <a href="/swagger">Open Swagger</a>
         </div>
