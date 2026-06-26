@@ -131,7 +131,6 @@ F:\MCA\PaymentProject\PaymentAPI\PaymentAPI\obj\Debug\net8.0\staticwebassets\msb
 F:\MCA\PaymentProject\PaymentAPI\PaymentAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PaymentAPI.props
 F:\MCA\PaymentProject\PaymentAPI\PaymentAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PaymentAPI.props
 F:\MCA\PaymentProject\PaymentAPI\PaymentAPI\obj\Debug\net8.0\staticwebassets.pack.json
-F:\MCA\PaymentProject\PaymentAPI\PaymentAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 F:\MCA\PaymentProject\PaymentAPI\PaymentAPI\obj\Debug\net8.0\PaymentAPI.csproj.Up2Date
 F:\MCA\PaymentProject\PaymentAPI\PaymentAPI\obj\Debug\net8.0\PaymentAPI.dll
 F:\MCA\PaymentProject\PaymentAPI\PaymentAPI\obj\Debug\net8.0\refint\PaymentAPI.dll
